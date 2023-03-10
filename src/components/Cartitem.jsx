@@ -6,7 +6,7 @@ const Cartitem = ({id, img, title, price, amount})=> {
   const dispatch = useDispatch();
   return (
     <section className='flex justify-between '>
-   <div className='flex ' >
+   <div className='flex  mt-8' >
    <img src={img} alt={title} className='md:w-28 w-20'/>
      <div className=''>
         <h4 className='md:text-xl text-sm text-indigo-600 '>{title}</h4>
